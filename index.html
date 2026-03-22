@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hooka Decision Engine™</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hooka Decision Engine™</h1>
+      <p class="subtitle">Powered by Abu Anwar Logic v1.0</p>
+      <h3>What Do You Want Mr. Abu Koshary ?!</h3>
+
+      <div class="card">
+        <label>
+          <input type="radio" name="choice" value="alone" />
+          I want to smoke alone 😏
+        </label>
+
+        <label>
+          <input type="radio" name="choice" value="abuAnwar" />
+          I will share with Abu Anwar 👑
+        </label>
+
+        <label>
+          <input type="radio" name="choice" value="other" />
+          I will share with someone else 💀
+        </label>
+
+        <button onclick="evaluateDecision()">Execute Decision</button>
+      </div>
+
+      <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

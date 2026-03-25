@@ -72,7 +72,7 @@ In case of suspicious or illegal hooka activity, the system will:
 
 ## 📡 Live Demo
 
-👉 https://yourusername.github.io/hooka-decision-engine/
+👉 https://ahmed-skaik.github.io/hooka-decision-engine/
 
 ---
 
